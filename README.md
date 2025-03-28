@@ -85,5 +85,9 @@ This is the place for you to write reflections:
 ### Mandatory (Subscriber) Reflections
 
 #### Reflection Subscriber-1
-
+1. RwLock<> is used to allow multiple readers for the Vec of Notifications, while Mutex<> would block all access
+2. Rust enforces strict ownership and borrowing rules to avoid race conditions
 #### Reflection Subscriber-2
+1. No because the focus has been on following the tutorial
+2. The observer pattern simplifies adding receivers and multiple Main app instances can easily integrate by registering new receivers
+3. I have not
